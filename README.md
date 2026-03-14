@@ -16,7 +16,7 @@ An image processing API built with Node.js, Express, and TypeScript. This API se
 
 ## Available Endpoints
 
-By default, the application runs on `http://localhost:3000`.
+By default, the application runs on `http://localhost:5000`.
 
 ### 1. Health Check
 - **Endpoint**: `GET /`
