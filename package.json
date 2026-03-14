@@ -1,0 +1,41 @@
+{
+  "name": "image-proccessing-api",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/osamajamal11/Image-proccessing-API#readme",
+  "bugs": {
+    "url": "https://github.com/osamajamal11/Image-proccessing-API/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/osamajamal11/Image-proccessing-API.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build && npm run jasmine",
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js",
+    "jasmine": "jasmine"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "jasmine": "^6.1.0",
+    "jasmine-spec-reporter": "^7.0.0",
+    "sharp": "^0.34.5",
+    "supertest": "^7.2.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jasmine": "^6.0.0",
+    "@types/node": "^25.5.0",
+    "@types/sharp": "^0.31.1",
+    "@types/supertest": "^7.2.0",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}
