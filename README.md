@@ -5,8 +5,6 @@ An image processing API built with Node.js, Express, and TypeScript. This API se
 
 ## Scripts to Run the Application
 
-Navigate to the root directory `Image-proccessing-API` and use the following npm scripts:
-
 - **Build**: `npm run build`
   Compiles TypeScript code into standard JavaScript in the `dist` folder.
 - **Start**: `npm run start`
@@ -23,7 +21,7 @@ By default, the application runs on `http://localhost:3000`.
 ### 1. Health Check
 - **Endpoint**: `GET /`
 - **Description**: Verifies that the API server is up and running.
-- **Example**: `http://localhost:3000/`
+- **Example**: `http://localhost:5000/`
 
 ### 2. Image Resizing
 - **Endpoint**: `GET /api/images`
